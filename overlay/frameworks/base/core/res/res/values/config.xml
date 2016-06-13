@@ -186,7 +186,9 @@
 
     <bool name="config_enableLockScreenTranslucentDecor">true</bool>
 
+    <add-resource type="string" name="config_perf_profile_prop"></add-resource>
     <string name="config_perf_profile_prop" translatable="false">sys.cpu.mode</string>
+    <add-resource type="string" name="config_perf_profile_default_entry"></add-resource>
     <string name="config_perf_profile_default_entry" translatable="false">2</string>
 
 </resources>
