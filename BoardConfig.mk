@@ -117,29 +117,3 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 # SELINUX Defines
 BOARD_SEPOLICY_DIRS := \
     device/asus/tf700t/sepolicy
-
-BOARD_SEPOLICY_UNION += \
-    file_contexts \
-    property_contexts \
-    service_contexts \
-    genfs_contexts \
-    bluetooth.te \
-    device.te \
-    domain.te \
-    drmserver.te \
-    file.te \
-    gpsd.te \
-    init.te \
-    init_shell.te \
-    keystore.te \
-    lmkd.te \
-    mediaserver.te \
-    property.te \
-    recovery.te \
-    rild.te \
-    sensors_config.te \
-    surfaceflinger.te \
-    system_app.te \
-    system_server.te \
-    ueventd.te \
-    vold.te
