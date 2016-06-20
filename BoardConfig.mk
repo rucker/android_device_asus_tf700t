@@ -30,7 +30,7 @@ COMMON_GLOBAL_CFLAGS += \
 # Cardhu HAL libraries
 BOARD_HAL_STATIC_LIBRARIES := \
     libdumpstate.cardhu \
-    libhealthd.cardhu
+    libhealthd.default
 
 # inherit from the proprietary version
 -include vendor/asus/tf700t/BoardConfigVendor.mk
